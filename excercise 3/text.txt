@@ -1,0 +1,19 @@
+1)What is an HTML element?
+    HTMl element is the most fundamental structure in the HTML document
+    an HTML Element can be a Heading,div,span,image,anchor etc
+
+2)How to write a self closing HTML element?
+    To write a self-closing HTML element, you simply add a forward slash / before the closing angle bracket > of the opening tag
+
+3)What is an HTML attribute? Write some of them
+    HTML attribute are additonal properties added to the HTML element to help in having a better developement of the elements
+    like in id,class
+
+4)What is JSX?
+    JSX is HTML-like or XML-like Syntax
+
+5)What is babel?
+    babel is js compiler and transpiler which is used to transpiles the JSX code into React.creatElement format which is browswer readable
+
+6)What is a transpiler?
+    A transpiler, short for "source-to-source compiler," is a type of compiler that translates source code written in one programming language into another programming language at the same abstraction level. 
