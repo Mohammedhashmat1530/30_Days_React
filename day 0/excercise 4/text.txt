@@ -1,0 +1,8 @@
+1)What is a JSX element?
+const element = <h1>Hello, world!</h1>;
+In this example, <h1>Hello, world!</h1> is a JSX element that represents a heading level 1 element with the text "Hello, world!". When the code is compiled, it gets transformed into a JavaScript function call equivalent to React.createElement('h1', null, 'Hello, world!'), which creates a React element representing the same HTML structure.
+
+
+Write your name in a JSX element and store it in a name variable
+Write a JSX element which displays your full name, country, title, gender, email, phone number. Use h1 for the name and p for the rest of the information and store it in a user variable
+Write a footer JSX element
