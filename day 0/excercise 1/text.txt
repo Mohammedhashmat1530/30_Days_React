@@ -1,0 +1,20 @@
+1)What is React?
+React is JS libray used to create single -page application
+
+2)What is a library?
+library contains Re-usable code which can used by the developers to develop their application easily which indeed helps in saving time and work
+
+3)What is a single page application?
+its a application where all sorts of operations are performed on a single page,
+in SPA,the page will not reload instead the different sections of the page will dynimically be updated
+
+4)What is a component ?
+component in react is a either a JS function or Class  which returns an JSX 
+
+5)What is DOM?
+Dom-document object model
+it represents the html document as tree like structure where each node represents a object in the document
+
+6)What is React Virtual DOM?
+React uses it to efficiently update and manipulate the browser's DOM. It helps in minimizing actual DOM manipulations and improves performance by batch updating changes to the real DOM 
+
