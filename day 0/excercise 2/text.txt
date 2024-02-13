@@ -1,0 +1,7 @@
+1)Why did you chose to use react?
+because of its single-page application features which helps in developing a scalable and fast responsive application
+
+2)What measures do you use to know popularity ?
+
+3)What is more popular, React or Vue ?
+React but will learn both
