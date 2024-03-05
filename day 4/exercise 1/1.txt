@@ -1,0 +1,54 @@
+1)What is the difference between a regular function and an arrow function?
+
+Arrow functions have a shorter syntax compared to regular functions.
+Regular function:
+
+javascript
+Copy code
+function regularFunction(a, b) {
+  return a + b;
+}
+Arrow function:
+
+javascript
+Copy code
+const arrowFunction = (a, b) => a + b;
+
+
+2)What is a React Component?
+react components are js functions which return jsx
+
+3)How do you make a React functional component?
+
+import React from 'react';
+
+function MyFunctionalComponent() {
+  return (
+    <div>
+      <h1>Hello, World!</h1>
+    </div>
+  );
+}
+
+4)What is the difference between a pure JavaScript function and a functional component?
+Pure JavaScript Function: A pure JavaScript function is a regular function defined in JavaScript, used for performing specific tasks or operations within the application logic. These functions can be called from various parts of the application to execute specific actions or calculations.
+Functional Component: A functional component in React is a JavaScript function that returns JSX elements, used for defining UI components within a React application. Functional components are primarily responsible for rendering UI elements based on the input data (props) they receive.
+
+5)How small is a React component?
+
+6)Can we make a button or input field component?
+
+import React from 'react';
+
+function Button({ onClick, children }) {
+  return <button onClick={onClick}>{children}</button>;
+}
+
+export default Button;
+
+
+7)Make a reusable Button component.
+
+8)Make a reusable InputField component.
+
+9)Make a reusable alert box component with one div parent element and one p child element of the div(warning alert box, success alert box).
