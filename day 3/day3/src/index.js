@@ -2,9 +2,13 @@
 // importing the react and react-dom package
 
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 
 const jsxElement = <h1>This is a JSX element</h1>
-const rootElement = document.getElementById('root')
+const title = <h2>Getting Started React</h2>
 
-ReactDOM.render(jsxElement, rootElement)
+const rootElement = ReactDOM.createRoot(document.getElementById('root'));
+
+const res=[jsxElement,title];
+
+rootElement.render(res);
