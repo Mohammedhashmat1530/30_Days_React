@@ -1,0 +1,57 @@
+.image img{
+    width: 134px;
+    height: 132px;
+    border-radius: 70px;
+    margin: 35px 35px 0 35px; 
+}
+
+.names h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-left: 12px;
+}
+
+.names h6{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 12px;
+}
+
+.skill h4{
+    font-size: 19px;
+    font-weight: 500;
+    margin: 12px;
+    padding-top: 20px;
+}
+
+.skill-set{
+    display: flex;
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.skill-set p {
+    background-color: rgb(0, 135, 135);
+    width: auto;
+    padding: 9px;
+    margin-left: 18px;
+    margin-top: 2px;
+    border-radius: 9px;
+    color: white;
+}
+
+.skill-set p:hover{
+    color: rgb(0, 135, 135);
+    background-color: rgb(179, 179, 4);
+    
+}
+
+.date{
+    font-size: 17px;
+    font-weight: 350;
+    margin: 12px;
+    padding-top: 20px;
+}
