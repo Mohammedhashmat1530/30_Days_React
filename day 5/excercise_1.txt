@@ -1,0 +1,62 @@
+1)What is props in a React component ?
+In React, "props" (short for properties) are a way of passing data from parent components to child components. They are read-only and are used to customize or configure a child component. 
+ 
+2)How do you access props in a React component ?
+import React from 'react';
+
+const MyComponent = (props) => {
+  // Accessing props inside the component function
+  return (
+    <div>
+      <p>Prop value: {props.myProp}</p>
+    </div>
+  );
+};
+
+export default MyComponent;
+
+3)What data types can we pass as props to components ?
+
+Here are the most commonly used data types:
+
+Primitive Types:
+    Strings
+    Numbers
+    Booleans
+
+Objects:
+    Plain JavaScript objects
+    Arrays
+
+Functions:
+    Functions can be passed as props, allowing child components to communicate with parent components.
+
+React Elements:
+    You can pass React elements as props, allowing you to compose components dynamically.
+
+Custom Data Types:
+    You can define custom data types using PropTypes or TypeScript for type checking.
+
+
+4)What is a propTypes?
+propTypes is a feature in React used for typechecking props that a component receives. It helps to ensure that the components are used correctly by checking the types of props passed to them. This is particularly useful for debugging and ensuring the correctness of data flow within a React application.
+
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const MyComponent = (props) => {
+  return (
+    <div>
+      <p>Prop value: {props.myProp}</p>
+    </div>
+  );
+};
+
+MyComponent.propTypes = {
+  myProp: PropTypes.string // specifying that myProp should be a string
+};
+
+export default MyComponent;
+
+
+5)What is a default propTypes?
