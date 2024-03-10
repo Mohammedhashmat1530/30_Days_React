@@ -1,0 +1,119 @@
+* {
+  margin: 2px;
+  padding: 2px;
+  
+}
+
+body{
+  background-color: #2F3C7E;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header h1{
+  font-size: 30px;
+  font-weight: 490;
+  color: #FBEAEB;
+  
+}
+
+.header h3{
+  font-size: 26px;
+  font-weight: 500;
+  color: #FBEAEB;
+  
+}
+
+.input_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.input_form .start{
+  border: 0px;
+  border-radius: 6px;
+  
+}
+
+.input_form .start::placeholder{
+  font-size: 15px;
+  color: black;
+}
+
+.input_form .end{
+  border: 0px;
+  border-radius: 6px;
+  color: black;
+}
+
+.input_form .end::placeholder{
+  font-size: 15px;
+  color: black;
+}
+
+button{
+  width: 78px;
+  border:0px;
+  border-radius: 10px;
+  background-color: #990011;
+  color: #FCF6F5;
+  font-size: 16px;
+}
+
+.databody {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.databody .data3 {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(215, 215, 28);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 1px;
+  color: whitesmoke;
+}
+
+.databody .data2 {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(22, 198, 22);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 1px;
+  color: whitesmoke;
+  
+}
+
+.databody .data1 {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(209, 29, 29);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin: 1px;
+  color: whitesmoke;
+  
+}
+
+
+

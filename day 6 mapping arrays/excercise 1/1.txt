@@ -1,0 +1,11 @@
+1)Why you need to map an array ?
+Mapping an array in React is a fundamental technique used for dynamically rendering lists of elements in the user interface. When you have a collection of data, such as an array of objects retrieved from an API, or an array stored in the component's state, you often want to display each item in that array as a separate component or element in the UI.
+
+2)Why we need keys during mapping an array ?
+Keys serve as unique identifiers for each item in the list, enabling React to track changes accurately during the reconciliation process. This optimization enhances rendering performance, particularly with large lists or frequent updates, by allowing React to identify which items have been added, removed, or modified.
+
+3)What is the importance of destructuring your code ?
+In React specifically, destructuring is commonly used to extract props passed to functional components, state and setState functions in class components, and context values provided by the Context API. Overall, destructuring contributes to writing cleaner, more readable, and maintainable React code.
+
+4)Does destructuring make your code clean and easy to read ?
+best practice for writing clean, readable, and maintainable code in React and other JavaScript applications.
