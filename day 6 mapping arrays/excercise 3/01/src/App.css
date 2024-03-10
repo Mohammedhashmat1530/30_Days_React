@@ -1,0 +1,23 @@
+* {
+  margin: 2px;
+  padding: 2px;
+  
+}
+
+body{
+  background-color: #2F3C7E;
+}
+
+
+
+.header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #FBEAEB;
+}
+
+.visual{
+  background-color: beige;
+  height: 500px;
+}
