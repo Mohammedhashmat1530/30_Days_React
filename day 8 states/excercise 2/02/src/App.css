@@ -1,0 +1,125 @@
+.light-mode {
+  height: 100vh;
+}
+
+.light-mode .image img {
+  width: 134px;
+  height: 132px;
+  border-radius: 70px;
+  margin: 35px 35px 0 35px;
+  border: 4px solid rgb(40, 39, 39);
+}
+
+.light-mode .names h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  margin-left: 12px;
+}
+
+.light-mode .names h6 {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 12px;
+}
+
+.light-mode .skill h4 {
+  font-size: 19px;
+  font-weight: 500;
+  margin: 12px;
+  padding-top: 20px;
+}
+
+.light-mode .skill-set {
+  display: flex;
+
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.light-mode .skill-set p {
+  background-color: rgb(0, 135, 135);
+  width: auto;
+  padding: 9px;
+  margin-left: 18px;
+  margin-top: 2px;
+  border-radius: 9px;
+  color: white;
+}
+
+.light-mode .skill-set p:hover {
+  color: rgb(0, 135, 135);
+  background-color: rgb(179, 179, 4);
+
+}
+
+.light-mode .date {
+  font-size: 17px;
+  font-weight: 350;
+  margin: 12px;
+  padding-top: 20px;
+}
+
+.light-mode .butt {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.light-mode .butt button {
+  background-color: brown;
+  ;
+  color: beige;
+  width: 200px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.light-mode .Component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.light-mode .Component .CountryCard {
+  height: auto;
+  width: 30vw;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+
+}
+
+.light-mode .Component .CountryCard .imgPart {
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+}
+
+
+.light-mode .Component .CountryCard .imgPart img {
+  height: 150px;
+  width: 250px;
+}
+
+.InfPart {
+  padding: 0px 20px;
+  margin-top: -35px;
+}
+
+.light-mode .Component .CountryCard button{
+ width: 150px;
+ margin: auto;
+ margin-bottom: 20px;
+ height: 27px;
+ border-radius: 12px;
+ border: 0px;
+ background-color: #8AAAE5;
+ color: #FFFFFF;
+
+}
