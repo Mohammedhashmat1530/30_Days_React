@@ -1,0 +1,81 @@
+.dark-mode{
+    height: 100vh;
+}
+
+.dark-mode .image img{
+    width: 134px;
+    height: 132px;
+    border-radius: 70px;
+    margin: 35px 35px 0 35px; 
+    border: 4px solid beige;
+}
+
+.dark-mode{
+    background-color: rgb(45, 42, 42);
+}
+
+.dark-mode .names h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    margin-left: 12px;
+    color: beige;
+}
+
+.dark-mode .names h6{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 12px;
+    color: beige;
+}
+
+.dark-mode .skill h4{
+    font-size: 19px;
+    font-weight: 500;
+    margin: 12px;
+    padding-top: 20px;
+    color: beige;
+}
+
+.dark-mode .skill-set{
+    display: flex;
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.dark-mode .skill-set p {
+    background-color: rgb(179, 179, 4);
+    width: auto;
+    padding: 9px;
+    margin-left: 18px;
+    margin-top: 2px;
+    border-radius: 9px;
+    color: black;
+}
+
+.dark-mode .skill-set p:hover{
+    color:  rgb(179, 179, 4);
+    background-color: rgb(0, 135, 135);
+    
+}
+
+.dark-mode .date{
+    font-size: 17px;
+    font-weight: 350;
+    margin: 12px;
+    padding-top: 20px;
+    color: beige;
+}
+.dark-mode .butt{
+    display: flex;
+    justify-content:  center;
+}
+.dark-mode .butt button{
+    background-color: beige;
+    color: brown;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+}
