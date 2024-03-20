@@ -34,3 +34,26 @@ const App = () => {
 const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 
+
+
+Getting multiple input data from form using hooks
+ const initialState = {
+    firstName: '',
+    lastName: '',
+    country: '',
+    title: '',
+  }
+  const [formData, setData] = useState(initialState)
+
+  const onChange = (e) => {
+    const { name, value } = e.target
+    setData({ ...formData, [name]: value })
+  }
+
+
+
+
+
+  //
+  validator.js
+  
